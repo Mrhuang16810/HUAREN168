@@ -110,8 +110,6 @@ img{
 }
 .content .rightContainer{
     width: 85%;
-    border-top: 3px solid rgb(238, 238, 238);
-    border-right: 3px solid rgb(238, 238, 238);
 }
 @media(max-width:1023px){
     .content .rightContainer{
@@ -193,6 +191,11 @@ img{
     font-weight: bold;
     margin: 0;
     text-align: center;
+}
+.rightContainer .tshirtContainer,.rightContainer .lowerBodyContainer,.rightContainer .coatContainer,.rightContainer .coatVestContainer,.rightContainer .coatActivityContainer,.rightContainer .coatLongContainer,.rightContainer .otherArmbandContainer,.rightContainer .otherSportContainer,.rightContainer .otherHatContainer,.rightContainer .otherApronContainer,.rightContainer .otherStrapContainer,.rightContainer .otherScarfContainer,.rightContainer .otherSmallContainer{
+    border-top: 3px solid rgb(238,238,238);
+    border-right: 3px solid rgb(238,238,238);
+    height: 100%;
 }
 .content .rightContainer .threeLinksContainer{
     display: flex;
