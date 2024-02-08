@@ -22,3 +22,10 @@ $(document).ready(function(){
         $('.content').toggleClass('showmenu4');
     });
 });
+
+// $(document).ready(function(){
+//     $('按鈕的class').on('click',function(e){
+//         e.preventDefault();
+//         $('要增加名稱的').toggleClass('增加的名稱是...');
+//     });
+// });
