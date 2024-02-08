@@ -414,15 +414,14 @@ img{
     padding: 0.3em;
     margin-bottom: 0.5em;
 }
-.rightContainer .mapContainer .twoConnectionContainer .companyName .chineseName,.rightContainer .mapContainer .twoConnectionContainer .companyPhone .phoneNum,{
-    text-align: right;
+.rightContainer .mapContainer .twoConnectionContainer .companyName .chineseName,.rightContainer .mapContainer .twoConnectionContainer .companyPhone .phoneNum{
+    text-align: center;
     letter-spacing: 3px;
 }
 .rightContainer .mapContainer .companyAddress{
-    width: 100%;
+    width: 70%;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
-    margin-left: 4em;
 }
 .rightContainer .mapContainer .companyAddress .addressName{
     width: 15%;
@@ -430,6 +429,34 @@ img{
 .rightContainer .mapContainer .companyAddress .address{
     padding-left: 4.5em;
     margin-bottom: 0.5em;
+}
+@media(max-width:840px){
+    .rightContainer .mapContainer .twoConnectionContainer{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .rightContainer .mapContainer .twoConnectionContainer .companyName,.rightContainer .mapContainer .twoConnectionContainer .companyPhone{
+        margin-top: 1em;
+        width: 70%;
+    }
+    .rightContainer .mapContainer .twoConnectionContainer .companyName .name,.rightContainer .mapContainer .twoConnectionContainer .companyPhone .phone,.rightContainer .mapContainer .companyAddress .addressName{
+        width: 100%;
+        background-color: rgb(190, 190, 190);
+        color: #fff;
+        font-weight: bold;
+        border: none;
+    }
+    .rightContainer .mapContainer .companyAddress{
+        margin-top: 1em;
+    }
+    .rightContainer .mapContainer .companyAddress .addressName{
+        width: 100%;
+    }
+    .rightContainer .mapContainer .companyAddress .address{
+        padding-left: 0;
+        line-height: 22px;
+    }
 }
 /* 公司權益頁面 */
 .content .rightContainer .markContainer{
@@ -1056,5 +1083,18 @@ img{
     }
     .rightContainer .tshirtContainer740 .tshirtImg .tshirtImgBox p,.rightContainer .tshirtContainer740 .tshirtVestImg .tshirtVestImgBox p,.rightContainer .tshirtContainer740 .tshirtPoloImg .tshirtPoloImgBox p,.rightContainer .tshirtContainer740 .tshirtBlouseImg .tshirtBlouseImgBox p,.rightContainer .tshirtContainer740 .tshirtHattImg .tshirtHattImgBox p,.rightContainer .lowerBodyContainer740 .lowerBodySkirtImg .lowerBodySkirtImgBox p,.rightContainer .lowerBodyContainer740 .lowerBodyPantsImg .lowerBodyPantsImgBox p,.rightContainer .coatContainer740 .coatExperimentImg .coatExperimentImgBox p,.rightContainer .coatVestContainer740 .coatVestImg .coatVestImgBox p,.rightContainer .coatActivityContainer740 .coatActivityImg .coatActivityImgBox p,.rightContainer .coatLongContainer740 .coatLongImg .coatLongImgBox p,.rightContainer .otherArmbandContainer740 .otherArmbandImg .otherArmbandImgBox p,.rightContainer .otherSportContainer740 .otherSportImg .otherSportImgBox p,.rightContainer .otherHatContainer740 .otherHatImg .otherHatImgBox p,.rightContainer .otherApronContainer740 .otherApronImg .otherApronImgBox p,.rightContainer .otherStrapContainer740 .otherStrapImg .otherStrapImgBox p,.rightContainer .otherScarfContainer740 .otherScarfImg .otherScarfImgBox p,.rightContainer .otherSmallContainer740 .otherSmallImg .otherSmallImgBox p{
         margin-top: 0.5em;
+    }
+    /* map手機版 */
+    .rightContainer .mapContainer .twoConnectionContainer .companyName,.rightContainer .mapContainer .twoConnectionContainer .companyPhone{
+        font-size: 12px;
+    }
+    .rightContainer .mapContainer .twoConnectionContainer .companyName .name,.rightContainer .mapContainer .twoConnectionContainer .companyPhone .phone,.rightContainer .mapContainer .companyAddress .addressName{
+        font-size: 14px;
+    }
+    .rightContainer .mapContainer .companyAddress .addressName{
+        font-size: 14px;
+    }
+    .rightContainer .mapContainer .companyAddress .address{
+        font-size: 12px;
     }
 }
