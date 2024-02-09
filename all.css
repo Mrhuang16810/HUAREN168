@@ -1018,6 +1018,21 @@ img{
     .rightContainer .tshirtContainer740 .tshirtImg .tshirtImgBox,.rightContainer .tshirtContainer740 .tshirtVestImg .tshirtVestImgBox,.rightContainer .tshirtContainer740 .tshirtPoloImg .tshirtPoloImgBox,.rightContainer .tshirtContainer740 .tshirtBlouseImg .tshirtBlouseImgBox,.rightContainer .tshirtContainer740 .tshirtHattImg .tshirtHattImgBox,.rightContainer .lowerBodyContainer740 .lowerBodySkirtImg .lowerBodySkirtImgBox,.rightContainer .lowerBodyContainer740 .lowerBodyPantsImg .lowerBodyPantsImgBox,.rightContainer .coatContainer740 .coatExperimentImg .coatExperimentImgBox,.rightContainer .coatVestContainer740 .coatVestImg .coatVestImgBox,.rightContainer .coatActivityContainer740 .coatActivityImg .coatActivityImgBox,.rightContainer .coatLongContainer740 .coatLongImg .coatLongImgBox,.rightContainer .otherArmbandContainer740 .otherArmbandImg .otherArmbandImgBox,.rightContainer .otherSportContainer740 .otherSportImg .otherSportImgBox,.rightContainer .otherHatContainer740 .otherHatImg .otherHatImgBox,.rightContainer .otherApronContainer740 .otherApronImg .otherApronImgBox,.rightContainer .otherStrapContainer740 .otherStrapImg .otherStrapImgBox,.rightContainer .otherScarfContainer740 .otherScarfImg .otherScarfImgBox,.rightContainer .otherSmallContainer740 .otherSmallImg .otherSmallImgBox{
         width: 45%;
     }
+    /* 手機740px */
+    .content .rightContainer .qa{
+        border-right: none;
+        padding: 2em 1em;
+    }
+    .content .rightContainer .qa ul span{
+        font-size: 14px;
+        width: 100%;
+        padding: 0.5em 0;
+    }
+    .content .rightContainer .qa ul li{
+        font-size: 12px;
+        line-height: 20px;
+        margin-left: 0;
+    }
 }
 @media(max-width:395px){
     .footer p a{
