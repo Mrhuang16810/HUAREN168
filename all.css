@@ -145,6 +145,16 @@ img{
     line-height: 24px;
     color: #fff;
 }
+@media(max-width:720px){
+    .content .allPhotoContainer .Photo .PhotoOne .phoneText .phoneTextP p{
+        font-size: 14px;
+    }
+}
+@media(max-width:430px){
+    .content .allPhotoContainer .Photo .PhotoOne .phoneText .phoneTextP p{
+        font-size: 12px;
+    }
+}
 /* 銷售通路中間段 */
 .content .allPhotoContainer .middleText{
     border-top: 3px solid rgb(238,238,238);
@@ -164,6 +174,33 @@ img{
     justify-content: space-around;
     padding-top: 2em;
     color: rgb(128,128,128);
+}
+@media(max-width:720px){
+    .content .allPhotoContainer .middleText .middleTextTitle h3{
+        font-size: 20px;
+    }
+    .content .allPhotoContainer .middleText .middleTextTitle p{
+        font-size: 14px;
+    }
+    .content .allPhotoContainer .middleText .middleTextContent{
+        font-size: 12px;
+    }
+}
+@media(max-width:550px){
+    .content .allPhotoContainer .middleText .middleTextContent{
+        font-size: 10px;
+    }
+}
+@media(max-width:430px){
+    .content .allPhotoContainer .middleText .middleTextTitle h3{
+        font-size: 16px;
+    }
+    .content .allPhotoContainer .middleText .middleTextTitle p{
+        font-size: 12px;
+    }
+    .content .allPhotoContainer .middleText .middleTextContent{
+        font-size: 10px;
+    }
 }
 .content .deskTopNone{
     display: none;
